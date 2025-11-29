@@ -160,7 +160,7 @@ html, body{
     cursor: pointer;
 }
 #apple3 span{
-    font-family:ap2 ;
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif ;
     background: linear-gradient(to bottom, #007aff, #00c6ff);
     -webkit-background-clip: text;
     background-clip: text;
