@@ -1,0 +1,311 @@
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-text_regular.woff2);
+}
+@font-face {
+    font-family: ap2;
+    src: url(./BH-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 40px;
+    background-color: #161617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    font-family: apple;
+}
+#nav h4{
+    font-weight: 400;
+    font-size: 10px;
+    cursor: pointer;
+}
+#nav i{
+    font-size: 20px;
+}
+#apple1{
+    width: 100%;
+    height: 80%;
+    background-image: url(./hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: apple;
+    padding: 40px 0px;
+}
+#apple1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#apple1 h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+#links{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0px;
+    font-family: apple;
+}
+#links button{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#apple2{
+    width: 100%;
+    height: 80%;
+    background-image : url(./hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: apple;
+    padding: 40px 0px;
+    margin-top: 13px;
+}
+#apple2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#apple2 h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+#links2{
+    background-color: #F5F5F7;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0px;
+    font-family: apple;
+}
+#links2 button{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#apple3{
+    width: 100%;
+    height: 90%;
+    background-image : url(./hero_ipad_air_avail__c34ycq52exg2_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: apple;
+    padding: 40px 0px;
+    margin-top: 13px;
+}
+#apple3 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#apple3 h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+#links3{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0px;
+    font-family: apple;
+}
+#links3 button{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#apple3 span{
+    font-family:ap2 ;
+    background: linear-gradient(to bottom, #007aff, #00c6ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 70px;
+}
+#mini{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-family: apple;
+    margin-top: 13px;
+    text-align: center;
+}
+#mini1{
+    width: 735px;
+    height: 700px;
+    background-color: #F5F5F7;
+    color: white;
+}
+#mini2{
+    width: 735px;
+    height: 700px;
+    background-color: blue;
+    color: black;
+    font-family: apple;
+}
+#mini3{
+    width: 735px;
+    height: 700px;
+    background-color: green;
+    color: black;
+    font-family: apple;
+}
+#mini4{
+    width: 735px;
+    height: 700px;
+    background-color: yellow;
+    color: black;
+    font-family: apple;
+}
+#mini5{
+    width: 735px;
+    height: 700px;
+    background-color: yellow;
+    color: black;
+    font-family: apple;
+    padding-top: 30px;
+}
+#mini6{
+    width: 735px;
+    height: 700px;
+    background-color: yellow;
+    color: black;
+    font-family: apple;
+    padding-top: 30px;
+}
+#mini h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: black;
+}
+#mini h3{
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 5px;
+    color: black;
+}
+#mini h4{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: black;
+}
+#mini button{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 15px 10px;
+}
+#mini1{
+    background-image : url(./promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mini2{
+    background-image : url(./promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mini3{
+    background-image : url(./promo_ipad_pro__c529dk533k4m_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mini4{
+    background-image : url(./promo_macbook_pro_m5__gnwzdhijhm6a_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mini5{
+    background-image : url(./promo_macbook_air__fqowrtnxewqe_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mini6{
+    background-image : url(./promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mini2 h3{
+    padding-top: 8px;
+}
+#mini2 h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+#mini2 span{
+    font-weight: bold;
+}
+#mini2 i{
+    padding-right: 10px;;
+}
+#mini3 h1{
+    color: white;
+}
+#mini3 h3{
+    color: white;
+}
+#mini3 h4{
+    color: white;
+}
+#mini4 h1{
+    color: white;
+}
+#mini4 h3{
+    color: white;
+}
+
+
